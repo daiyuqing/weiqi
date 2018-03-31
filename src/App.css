@@ -1,0 +1,11 @@
+.App{
+  border:2px solid #000;
+  background-color:   #F0E68C;
+}
+.container{
+  border:1px solid #000;
+}
+.item{
+  margin-top: -1px;
+  margin-left: -1px;
+}
