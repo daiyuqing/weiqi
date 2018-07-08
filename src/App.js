@@ -75,7 +75,8 @@ class App extends Component {
             let rightSlantTotal=self.connectNum(rightSlantArr,chessman.x);
             let leftSlantTotal=self.connectNum(leftSlantArr,chessman.x);
             if (colTotal>=5||rowTotal>=5||rightSlantTotal>=5||leftSlantTotal>=5) {
-              let confirm=window.confirm(chessman.color+' win!');
+              let words=chessman.color==='white'?'白方赢！':'黑方赢！';
+              let confirm=window.confirm(words);
               if (confirm) {
                 self.setState({
                   data:[],
