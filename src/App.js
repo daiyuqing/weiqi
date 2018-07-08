@@ -90,6 +90,7 @@ class App extends Component {
       }
     }
   }
+  
   // 相同颜色棋子最多相连的个数
   connectNum(arr,index){
     let total=1;
